@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  APP_ENV: production
+  WELCOME_MSG: Hello from AKS
+kind: ConfigMap
+metadata:
+  name: web-config
